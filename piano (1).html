@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width" name="viewport">
+    <title>Piano | Music Is Magic</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="logo.jpg">
+    <link href="piano.css" rel="stylesheet" type="text/css">
+  </head>
+  <body style="margin-top: 1.5vw;">
+    <h1 style="text-align: center;">Piano</h1>
+    <pre style="text-align: center;">Use keys for control, as shown on different keys.</pre> 
+    <section id="wrap">
+      <section id="main">
+        <div class="nowplaying"></div>
+        <div class="keys">
+          <div class="key" data-key="65" data-note="C"><pre style="text-align: center; margin-left: -20px; margin-top: 10px; font-size: 30px;">a</pre></div>
+          <div class="key sharp" data-key="87" data-note="C#"><pre style="text-align: center; margin-top: 10px; font-size: 30px; color: white;">w</pre></div>
+          <div class="key" data-key="83" data-note="D"><pre style="text-align: center; margin-top: 10px; font-size: 30px;">s</pre></div>
+          <div class="key sharp" data-key="69" data-note="D#"><pre style="text-align: center; margin-top: 10px; font-size: 30px; color: white;">e</pre></div>
+          <div class="key" data-key="68" data-note="E"><pre style="text-align: center; margin-top: 10px; margin-left: 20px; font-size: 30px;">d</pre></div>
+          <div class="key" data-key="70" data-note="F"><pre style="text-align: center; margin-top: 10px; margin-left: -20px; font-size: 30px;">f</pre></div>
+          <div class="key sharp" data-key="84" data-note="F#"><pre style="text-align: center; margin-top: 10px; font-size: 30px; color: white;">t</pre></div>
+          <div class="key" data-key="71" data-note="G"><pre style="text-align: center; margin-top: 10px; font-size: 30px;">g</pre></div>
+          <div class="key sharp" data-key="89" data-note="G#"><pre style="text-align: center; margin-top: 10px; font-size: 30px; color: white;">y</pre></div>
+          <div class="key" data-key="72" data-note="A"><pre style="text-align: center; margin-top: 10px; font-size: 30px;">h</pre></div>
+          <div class="key sharp" data-key="85" data-note="A#"><pre style="text-align: center; margin-top: 10px; font-size: 30px; color: white;">u</pre></div>
+          <div class="key" data-key="74" data-note="B"><pre style="text-align: center; margin-top: 10px; margin-left: 20px; font-size: 30px;">j</pre></div>
+          <div class="key" data-key="75" data-note="C"><pre style="text-align: center; margin-top: 10px; margin-left: -20px; font-size: 30px;">k</pre></div>
+          <div class="key sharp" data-key="79" data-note="C#"><pre style="text-align: center; margin-top: 10px; font-size: 30px; color: white;">o</pre></div>
+          <div class="key" data-key="76" data-note="D"><pre style="text-align: center; margin-top: 10px; font-size: 30px;">l</pre></div>
+          <div class="key sharp" data-key="80" data-note="D#"><pre style="text-align: center; margin-top: 10px; font-size: 30px; color: white;">p</pre></div>
+          <div class="key" data-key="186" data-note="E"><pre style="text-align: center; margin-top: 10px; margin-left: 20px; font-size: 30px;">;</pre></div>
+        </div>
+        <audio data-key="65" src="http://carolinegabriel.com/demo/js-keyboard/sounds/040.wav"></audio>
+        <audio data-key="87" src="http://carolinegabriel.com/demo/js-keyboard/sounds/041.wav"></audio>
+        <audio data-key="83" src="http://carolinegabriel.com/demo/js-keyboard/sounds/042.wav"></audio>
+        <audio data-key="69" src="http://carolinegabriel.com/demo/js-keyboard/sounds/043.wav"></audio>
+        <audio data-key="68" src="http://carolinegabriel.com/demo/js-keyboard/sounds/044.wav"></audio>
+        <audio data-key="70" src="http://carolinegabriel.com/demo/js-keyboard/sounds/045.wav"></audio>
+        <audio data-key="84" src="http://carolinegabriel.com/demo/js-keyboard/sounds/046.wav"></audio>
+        <audio data-key="71" src="http://carolinegabriel.com/demo/js-keyboard/sounds/047.wav"></audio>
+        <audio data-key="89" src="http://carolinegabriel.com/demo/js-keyboard/sounds/048.wav"></audio>
+        <audio data-key="72" src="http://carolinegabriel.com/demo/js-keyboard/sounds/049.wav"></audio>
+        <audio data-key="85" src="http://carolinegabriel.com/demo/js-keyboard/sounds/050.wav"></audio>
+        <audio data-key="74" src="http://carolinegabriel.com/demo/js-keyboard/sounds/051.wav"></audio>
+        <audio data-key="75" src="http://carolinegabriel.com/demo/js-keyboard/sounds/052.wav"></audio>
+        <audio data-key="79" src="http://carolinegabriel.com/demo/js-keyboard/sounds/053.wav"></audio>
+        <audio data-key="76" src="http://carolinegabriel.com/demo/js-keyboard/sounds/054.wav"></audio>
+        <audio data-key="80" src="http://carolinegabriel.com/demo/js-keyboard/sounds/055.wav"></audio>
+        <audio data-key="186" src="http://carolinegabriel.com/demo/js-keyboard/sounds/056.wav"></audio>
+      </section>
+    </section>
+    <script src="piano.js"></script>
+    <a href="/"><button type="button" class="btn btn-outline-dark" style="position: absolute; bottom: 1.5vw; right: 1.5vw;">Home</button></a>
+  </body>
+</html>

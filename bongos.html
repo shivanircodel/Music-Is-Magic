@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width" name="viewport">
+    <title>Bongos | Music Is Magic</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bongos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+    <script src="bongos.js"></script>
+    <link href="logo.jpg" rel="icon">
+  </head>
+  <body onload="initAudio(); init();" style="margin-top: 1.5vw;">
+    <h1 style="text-align: center;">Bongos</h1>
+    <pre style="text-align: center;">Use <kbd>1</kbd> for the left drum and <kbd>2</kbd> for the right drum.</pre> 
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="container-fluid" id="InstrumentCanvas">
+          <canvas height="345" id="canvas" style="background-color: #ffffff; width: 100%; max-width: 500px; height: 100%" width="500"></canvas>
+        </div>
+      </div>
+    </div>
+    <a href="/"><button type="button" class="btn btn-outline-dark" style="position: absolute; bottom: 1.5vw; right: 1.5vw;">Home</button></a>
+  </body>
+</html>
